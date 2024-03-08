@@ -25,6 +25,5 @@ class Hero {
     }
 
 }
-
-    hero.toAttack()
     let hero = new hero(prompt("enter your name"),prompt("enter your age"),prompt("enter your type"))
+    hero.toAttack()
